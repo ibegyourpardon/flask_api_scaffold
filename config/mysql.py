@@ -1,3 +1,6 @@
+"""
+MySQL配置 防止变量污染，用函数组织
+"""
 def mysql_config_dev():
     mysql_config : {
     "DB_HOST" : "localhost",
