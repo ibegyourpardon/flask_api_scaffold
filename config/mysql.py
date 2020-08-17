@@ -2,7 +2,7 @@
 MySQL配置 防止变量污染，用函数组织
 """
 def mysql_config_dev():
-    mysql_config : {
+    mysql_config = {
     "DB_HOST" : "localhost",
     "DB_PORT" : "3306",
     "DB_NAME" : "root",
@@ -18,7 +18,7 @@ def mysql_config_dev():
 
 
 def mysql_config_prod():
-    mysql_config : {
+    mysql_config = {
     "DB_HOST" : "localhost",
     "DB_PORT" : "3306",
     "DB_NAME" : "root",
